@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class Check_Payment_status {
+public class Check_Payment_status_Controller {
 
     @RequestMapping("/Payment_Status")
     public List<Payment_status> Retrive_Status(){
