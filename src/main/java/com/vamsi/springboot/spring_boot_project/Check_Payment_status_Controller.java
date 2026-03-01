@@ -15,6 +15,7 @@ public class Check_Payment_status_Controller {
         return Arrays.asList(
                 new Payment_status(123,"UPI","Success"),
                 new Payment_status(132,"UPIQR","Success"),
+                new Payment_status(132,"UPIQR","Failure"),
                 new Payment_status(321,"UPI","Failure")
         );
     }
